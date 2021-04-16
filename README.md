@@ -10,9 +10,12 @@ I included an endpoint to add information on the backend, but the prompt did not
 Because this is only going to be running locally, I have not packaged the react, and will instead run the react normally.
 
 =======Running Instructions=======  
-Build Environment: MacOS
-ASSUMING THAT THE SERVER IS RUNNING ON PORT 8080
+Build Environment: MacOS  
+ASSUMING THAT THE SERVER IS RUNNING ON PORT 8080  
 
 1. Run "npm install" to install all dependencies.
 2. Run "npm start" to run the client.
 
+Thanks for taking the time to read this, and I hope you enjoy my project!
+
+~Htoo Min
