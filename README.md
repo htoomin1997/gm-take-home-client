@@ -10,6 +10,8 @@ I included an endpoint to add information on the backend, but the prompt did not
 Because this is only going to be running locally, I have not packaged the react, and will instead run the react normally.
 
 =======Running Instructions=======  
+Assuming NPM has been installed on the local machine in question!  
+
 Build Environment: MacOS  
 ASSUMING THAT THE SERVER IS RUNNING ON PORT 8080  
 
