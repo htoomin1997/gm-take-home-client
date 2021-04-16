@@ -5,9 +5,8 @@ import TransactionInformation from "../components/TransactionInformation/Transac
 import {setInformation} from "../store/actions/timesheetActions";
 import Modal from "../components/Modal/Modal";
 
-// To Dos
-//Add in loading modal so that we have something to look at while it loads in
-//Clean up coloring of text
+//Main Container for logic and display
+//Maintains minor display states
 
 const MainPage = (props) => {
     const [modalState, setModalState] = useState(false);

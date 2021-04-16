@@ -1,6 +1,7 @@
 import React from "react";
 import "./Modal.css";
 
+//Display loading spinner
 const Modal = (props) => {
     return (
         <div className="modal">

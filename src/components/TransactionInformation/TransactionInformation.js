@@ -1,8 +1,7 @@
 import React from "react";
 import "./TransactionInformation.css"
-// Blue hex code is 3A6495 or 5879A3
-// Gray darker - E4E3E4 lighter - FBFBFB
 
+//Subcomponent to display the cell informationo
 const TransactionInformation = (props) => {
     return (
         <tr className="temp-row">
