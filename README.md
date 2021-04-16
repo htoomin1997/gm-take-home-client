@@ -18,7 +18,7 @@ ASSUMING THAT THE SERVER IS RUNNING ON PORT 8080
 1. Run "npm install" to install all dependencies.
 2. Run "npm start" to run the client.
 
-Something that I want to note is that my local keychain points to hm1487 which is an old github account that I no longer want to use, but I want to point out that that is still my account and that this is all my work! This is my work!
+Something that I want to note is that my local keychain points to hm1487 which is an old github account that I no longer want to use, but I want to point out that that is still my account and that this is all my work! I have pushed from htoomin1997 as well to demonstrate this point.
 
 Thanks for taking the time to read this, and I hope you enjoy my project!
 
