@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: "Segoe";
+    src: url("../assets/Segoe\ UI.woff");
+}
+* {
+    font-family: "Segoe";
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+tr {
+    position: relative;
+}
+th {
+    border-style: solid;
+    border-color: darkgrey;
+    border-width: thin;
+    width: 20%;
+    /* font-weight: normal; */
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.main-page-div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tracked-hours {
+    width: 15%;
+    float: left;
+    padding: 10px;
+}
+
+.tracked-hours > p {
+    color: #414141;
+    margin-bottom: -10px;
+    font-size: 14px;
+}
+
+.billable-amount {
+    width: 15%;
+    float: right;
+    padding: 10px;
+}
+
+.billable-amount > p {
+    color: #414141;
+    margin-bottom: -10px;
+    font-size: 14px;
+}
+
+.header-boxes { 
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.table-display {
+    clear: both;
+    padding: 10px;
+}
+
+.header-shadow-background{
+    background-color: #f5f5f5;
+} 
+
+.right-aligned-headers {
+    background-color: #f5f5f5;
+    text-align: right;
+}
+
+.name-header {
+    text-align: left;
+}
+
+.clients-header {
+    background-color: #f5f5f5;
+    text-align: left;
+}
+
+.hours-header { 
+    background-color: #f5f5f5;
+    text-align: right;
+}
+
+
+

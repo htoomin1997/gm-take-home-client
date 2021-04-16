@@ -1,0 +1,25 @@
+.temp-row {
+    border-bottom-style: solid;
+    border-width: thin;
+}
+
+td {
+    padding: 10px;
+}
+
+.right-aligned-cell {
+    text-align: right;
+}
+
+.hours-cell {
+    text-align: right;
+    color: #3775bd;
+}
+
+.left-aligned-cell { 
+    color: #3775bd;
+}
+
+.percent-styling {
+    color: #4d4c4c;
+}
