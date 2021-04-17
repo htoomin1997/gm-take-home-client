@@ -11,6 +11,7 @@ import Modal from "../components/Modal/Modal";
 const MainPage = (props) => {
     const [modalState, setModalState] = useState(false);
 
+    //Only want this effect to run once, similar to component did mount, so the dependency array is empty
     useEffect(() => {
         const tempFunction = async () => {
             setModalState(true);
@@ -36,16 +37,20 @@ const MainPage = (props) => {
             <div className="header-boxes"></div>
             <div className="table-display">
                 <table>
-                    <tr>
-                        <th className="name-header">Name</th>
-                        <th className="clients-header">Clients</th>
-                        <th className="hours-header">Hours</th>
-                        <th className="right-aligned-headers">Billable Hours</th>
-                        <th className="right-aligned-headers">Billable Amount</th>
-                    </tr>
+                    <thead>
+                        <tr>
+                            <th className="name-header">Name</th>
+                            <th className="clients-header">Clients</th>
+                            <th className="hours-header">Hours</th>
+                            <th className="right-aligned-headers">Billable Hours</th>
+                            <th className="right-aligned-headers">Billable Amount</th>
+                        </tr>
+                    </thead>
                     <tbody>
                         {props.data.map((currEl) => {
-                            return <TransactionInformation info={currEl} />
+                            return (
+                                <TransactionInformation info={currEl} key={currEl._id}/>
+                            )  
                         })}
                     </tbody>
                 </table>

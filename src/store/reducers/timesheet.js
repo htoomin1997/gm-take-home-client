@@ -7,7 +7,6 @@ const initialState = {
 const timesheetReducer = (state = initialState, action) => {
     switch(action.type){
         case actionTypes.SET_INFORMATION:
-            console.log(action.newData.length)
             return {
                 data: action.newData
             }
